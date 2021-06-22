@@ -16,6 +16,7 @@ header {
     grid-area: left;
 
     background: url('/assets/home-bg-img.svg') no-repeat top/contain;
+    background-position-x: -10rem;
 }
 
 main {
@@ -77,7 +78,7 @@ input, button, .button {
     background: var(--blue);
     clip-path: circle();
 
-    position: absolute;
+    position: fixed;
 
     opacity: 0.1;
 }
