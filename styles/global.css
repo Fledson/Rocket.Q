@@ -16,11 +16,11 @@ html {
     --overlay: #040911;
     --icons-details: #A5B0C1;
 
-    --gray-dark: #A5B0C1;
-    --gray-dark-opacity: #EAECF1;
-    --gray-blue: #A1B2CD;
-    --gray-medium: #D3D9E2;
-    --gray-light:  #E5EAF1;
+    --grey-dark: #A5B0C1;
+    --grey-dark-opacity: #EAECF1;
+    --grey-blue: #A1B2CD;
+    --grey-medium: #D3D9E2;
+    --grey-light:  #E5EAF1;
 
     --hove-blue:  #E5EAF1;
     --hove-red: #EA4B65;
@@ -102,6 +102,19 @@ button.outlined,
     border: .2rem solid var(--blue);
 }
 
+button.red,
+.button.red {
+    background: var(--red);
+    color: var(--white);
+}
+
+button.grey,
+.button.grey {
+    background: var(--grey-light);
+    color: var(--grey-dark)
+}
+
+/* ********** HEADER ********** */
 .content header{
     width: 80%;  
     margin: 3.5rem auto;
