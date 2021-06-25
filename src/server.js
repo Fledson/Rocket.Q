@@ -11,10 +11,8 @@ server.use(express.static('public'));
 // mostrando ao servidor aonde esta a pasta views com o index.ejs
 server.set('views', path.join(__dirname, 'views'));
 // decodificar conteúdo que vem do formulário
-server.use(express.urlencoded({extended: true}));
+server.use(express.urlencoded({ extended: true }));
 
 server.use(route);
 
-server.listen(3000, () => {
-    console.log("Server is Running");
-});
+server.listen(process.env.PORT || 3000);
