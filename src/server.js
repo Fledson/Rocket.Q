@@ -15,4 +15,5 @@ server.use(express.urlencoded({ extended: true }));
 
 server.use(route);
 
+//process.env.PORT => para que em produção o heroku possa colocar a porta 
 server.listen(process.env.PORT || 3000);
