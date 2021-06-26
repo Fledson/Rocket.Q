@@ -13,6 +13,7 @@ const initDb = {
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
                 question TEXT,
                 read INT,
+                room INT,
                 deletado TEXT
             )`)
 
